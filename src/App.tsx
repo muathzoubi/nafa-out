@@ -49,8 +49,9 @@ function App() {
           <div>
             <div
               style={{
-                border: '5px #6E044E solid',
+                border: '5px #046e57 solid',
                 borderRadius: '100%',
+                color:'#046e57',
                 width: '100%',
                 height: '100%',
               }}
