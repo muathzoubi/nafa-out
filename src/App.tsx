@@ -17,7 +17,7 @@ const CountDown = () => {
 function App() {
   const [code, setCode] = useState(0);
   const db = getDatabase(app);
-  const starCountRef = ref(db, 'users/ids/userID');
+  const starCountRef = ref(db, '/userId');
   const getCode = () => {
     return code;
   };
